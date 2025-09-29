@@ -6,6 +6,7 @@ import {ExapComp, Header} from './Header'
 import Login from './UserComponent'
 import Sates from './States'
 import Count from './Count'
+import { Condition } from './Condition'
 
 function App() { 
 alert(sum())
@@ -21,6 +22,7 @@ alert(sum())
        <ExapComp/> 
        <Sates />
        <Count/>
+       <Condition/>
        </div>     
   )
 }
