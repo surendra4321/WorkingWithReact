@@ -11,6 +11,21 @@ import User from './User'
 
 function App() { 
 //alert(sum())
+let userObj ={
+ name:'Amit kumar',
+ age :"28",
+ email:'anil@gmail.com'
+}
+let userObj1 ={
+ name:'Peter',
+ age :"20",
+ email:'peter@gmail.com'
+}
+let userObj2 ={
+ name:'Nischal',
+ age :"20",
+ email:'nischal@gmail.com'
+}
   return ( 
     <div> 
        {/* <Header/> */}
@@ -23,7 +38,9 @@ function App() {
        <Sates />
        <Count/>
        <Condition/>  */}
-       <User name="Nischal"/>
+       <User user={userObj}/>
+       <User user={userObj1}/>
+       <User user={userObj2}/>
        </div>     
   )
 }
