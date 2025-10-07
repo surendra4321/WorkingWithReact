@@ -8,6 +8,7 @@ import Sates from './States'
 import Count from './Count'
 import { Condition } from './Condition'
 import User from './User'
+import Wrapper from './Wrapper'
 
 function App() { 
 //alert(sum())
@@ -78,16 +79,28 @@ function App() {
 // }
 
 //Default Propers
-return (
-<div>
-  <h1>Default Props In React</h1>
-    <User/>
+// return (
+// <div>
+//   <h1>Default Props In React</h1>
+//     <User/>
   
-</div>
+// </div>
 
+// )
+
+
+// }
+
+return(
+<div>
+<h1>Probs in the react JS</h1>
+<Wrapper><h1>Hello Everyone </h1></Wrapper>
+
+<Wrapper><h1>Hello Admin </h1></Wrapper>
+<Wrapper><h1>Hello Trainer </h1></Wrapper>
+</div>
 )
 
-
 }
-export default App
+export default App  ;     
 
