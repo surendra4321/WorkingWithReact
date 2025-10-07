@@ -11,39 +11,39 @@ import User from './User'
 
 function App() { 
 //alert(sum())
-let userObj ={
- name:'Amit kumar',
- age :"28",
- email:'anil@gmail.com'
-}
-let userObj1 ={
- name:'Peter',
- age :"20",
- email:'peter@gmail.com'
-}
-let userObj2 ={
- name:'Nischal',
- age :"20",
- email:'nischal@gmail.com'
-}
-  return ( 
-    <div> 
-       {/* <Header/> */}
-       <h1>Probs in React JS</h1>
-       {/* <Fruits />
-       <Colour />
-       <Login />
-       <TodoList/>
-       <ExapComp/> 
-       <Sates />
-       <Count/>
-       <Condition/>  */}
-       <User user={userObj}/>
-       <User user={userObj1}/>
-       <User user={userObj2}/>
-       </div>     
-  )
-}
+// let userObj ={
+//  name:'Amit kumar',
+//  age :"28",
+//  email:'anil@gmail.com'
+// }
+// let userObj1 ={
+//  name:'Peter',
+//  age :"20",
+//  email:'peter@gmail.com'
+// }
+// let userObj2 ={
+//  name:'Nischal',
+//  age :"20",
+//  email:'nischal@gmail.com'
+// }
+//   return ( 
+//     <div> 
+//        {/* <Header/> */}
+//        <h1>Probs in React JS</h1>
+//        {/* <Fruits />
+//        <Colour />
+//        <Login />
+//        <TodoList/>
+//        <ExapComp/> 
+//        <Sates />
+//        <Count/>
+//        <Condition/>  */}
+//        <User user={userObj}/>
+//        <User user={userObj1}/>
+//        <User user={userObj2}/>
+//        </div>     
+//   )
+// }
 // function Fruits(){
 //   return(
 //     <h1>Apple</h1>
@@ -77,6 +77,17 @@ let userObj2 ={
 //   );
 // }
 
+//Default Propers
+return (
+<div>
+  <h1>Default Props In React</h1>
+    <User/>
+  
+</div>
 
+)
+
+
+}
 export default App
 
