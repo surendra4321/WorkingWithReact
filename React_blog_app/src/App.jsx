@@ -91,16 +91,42 @@ function App() {
 
 // }
 
+// return(
+// <div>
+// <h1>Probs in the react JS</h1>
+// <Wrapper><h1>Hello Everyone </h1></Wrapper>
+
+// <Wrapper><h1>Hello Admin </h1></Wrapper>
+// <Wrapper><h1>Hello Trainer </h1></Wrapper>
+// </div>
+// )
+
+//Event handeling 
+function handleClick(){
+  alert("I am clicked");
+}
+
+function handelMouseOver(){
+  alert("this is para")
+}
+
+function handelInputChange(e){
+  //console.log("Input changed")
+  console.log("value till now ", e.target.value);
+}
 return(
-<div>
-<h1>Probs in the react JS</h1>
-<Wrapper><h1>Hello Everyone </h1></Wrapper>
-
-<Wrapper><h1>Hello Admin </h1></Wrapper>
-<Wrapper><h1>Hello Trainer </h1></Wrapper>
-</div>
+     <div>
+      
+      <form>
+        <input type='text' onChange={handelInputChange} />
+      </form>
+      
+      <p onMouseOver={handelMouseOver} style={{border:"1px solid black"}}>
+        I am a Paragraph
+      </p>
+       <button onClick={handleClick}>Click On</button>
+     </div>
 )
-
 }
 export default App  ;     
 
