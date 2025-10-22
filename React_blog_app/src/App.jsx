@@ -9,6 +9,7 @@ import Count from './Count'
 import { Condition } from './Condition'
 import User from './User'
 import Wrapper from './Wrapper'
+import ControlledComp from './ControlledCom'
 
 function App() { 
 //alert(sum())
@@ -102,31 +103,38 @@ function App() {
 // )
 
 //Event handeling 
-function handleClick(){
-  alert("I am clicked");
-}
+// function handleClick(){
+//   alert("I am clicked");
+// }
 
-function handelMouseOver(){
-  alert("this is para")
-}
+// function handelMouseOver(){
+//   alert("this is para")
+// }
 
-function handelInputChange(e){
-  //console.log("Input changed")
-  console.log("value till now ", e.target.value);
-}
-return(
-     <div>
+// function handelInputChange(e){
+//   //console.log("Input changed")
+//   console.log("value till now ", e.target.value);
+// }
+// return(
+//      <div>
       
-      <form>
-        <input type='text' onChange={handelInputChange} />
-      </form>
+//       <form>
+//         <input type='text' onChange={handelInputChange} />
+//       </form>
       
-      <p onMouseOver={handelMouseOver} style={{border:"1px solid black"}}>
-        I am a Paragraph
-      </p>
-       <button onClick={handleClick}>Click On</button>
-     </div>
-)
+//       <p onMouseOver={handelMouseOver} style={{border:"1px solid black"}}>
+//         I am a Paragraph
+//       </p>
+//        <button onClick={handleClick}>Click On</button>
+//      </div>
+// )
+
+return (
+  <div>
+    <ControlledComp/>
+  </div>
+
+);
 }
 export default App  ;     
 
