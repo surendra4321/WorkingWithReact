@@ -10,6 +10,7 @@ import { Condition } from './Condition'
 import User from './User'
 import Wrapper from './Wrapper'
 import ControlledComp from './ControlledCom'
+import CheckboxHandeling from './CheckboxHandeling'
 
 function App() { 
 //alert(sum())
@@ -131,7 +132,8 @@ function App() {
 
 return (
   <div>
-    <ControlledComp/>
+    <h1>Handeling the checkbox</h1>
+     <CheckboxHandeling/>
   </div>
 
 );

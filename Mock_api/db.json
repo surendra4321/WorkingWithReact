@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Ishan",
+      "age": "77",
+      "email": "Ishan@gmail.com",
+      "id": "931f"
+    },
+    {
+      "name": "sads",
+      "age": "27",
+      "email": "abc@gmail.com",
+      "id": "7758"
+    },
+    {
+      "name": "Suren kumar",
+      "age": "40",
+      "email": "surend@gmail.com",
+      "id": "77d8"
+    }
+  ]
+}
